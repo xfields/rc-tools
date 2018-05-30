@@ -1,6 +1,8 @@
-# rc-tools
+# nd-rc-tools
 
-offline tools for react component
+Offline tools for react component.
+
+Forked from [rc-tools](https://github.com/react-component/rc-tools), add `babel-plugin-import` additionally.
 
 [![NPM version][npm-image]][npm-url]
 [![gemnasium deps][gemnasium-image]][gemnasium-url]
