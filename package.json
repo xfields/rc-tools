@@ -6,16 +6,16 @@
     "react",
     "tools"
   ],
-  "homepage": "http://github.com/react-component/rc-tools",
+  "homepage": "https://github.com/xiefei89/rc-tools",
   "author": {
     "name": "yiminghe@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/rc-tools.git"
+    "url": "git@github.com:xiefei89/rc-tools.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/rc-tools/issues"
+    "url": "https://github.com/xiefei89/rc-tools/issues"
   },
   "licenses": "MIT",
   "bin": {
@@ -30,10 +30,6 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "**/*.js": [
-      "prettier --wirter",
-      "git add"
-    ],
     "**/*.js": "eslint --ext .js"
   },
   "dependencies": {
@@ -42,6 +38,7 @@
     "babel-eslint": "^8.2.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-import": "^1.7.0",
     "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
     "babel-plugin-transform-es3-property-literals": "^6.22.0",
     "babel-plugin-transform-object-assign": "^6.22.0",
